@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "detalleNotas";
+}
+
+<h2 align="center">Boleta de Notas</h2>
+<hr />
+<div align="center">
+    <p>Código: @Model.codigo</p>
+    <p>Nombre: @Model.nombre</p>
+    <p>Curso: @Model.curso</p>
+    <p>Ex. Parcial: @Model.parcial</p>
+    <p>Ex. Final: @Model.final</p>
+    <p>Práctica: @Model.practica</p>
+    <p>Estado Final: @Model.estado</p>
+
+    <a class="btn btn-primary" href="~/Home/ingresoNotas">Nuevo Alumno</a>
+</div>

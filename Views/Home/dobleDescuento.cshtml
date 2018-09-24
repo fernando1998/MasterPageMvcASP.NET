@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Doble Descuento";
+}
+
+<h2 align="center">Caso de Doble Descuento</h2>
+
+<h4 align="center">Compra de CD's</h4>
+<form action="~/Home/calculo" method="post" align="center">
+    <table align="center">
+        <tr>
+            <td align="center" colspan="2">
+                Compra de Conos de CD
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cantidad:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtCantidad" value="" required />
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                Precio:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtPrecio" value="" required/>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <input class="btn btn-success" type="submit" name="name" value="Enviar" />
+</form>

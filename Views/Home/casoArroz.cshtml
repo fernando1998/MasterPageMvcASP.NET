@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Precio del Arroz";
+}
+
+<h2 align="center">Venta de Arroz</h2>
+
+<form action="~/Home/calculoArroz" method="post" align="center">
+    <table align="center">
+        <tr>
+            <td>Cantidad de bolsas:</td>
+            <td>
+                <input class="form-control" type="text" name="txtCantidad" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>Tipo de Arroz</td>
+            <td>
+                <select name="selectTipoArroz" class="form-control">
+                    <option value="Costeño">Arroz Costeño</option>
+                    <option value="Paisana del Norte">Paisana del Norte</option>
+                    <option value="Tropical Superior">Tropical Superior</option>
+                    <option value="Norteño Superior">Norteño Superior</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <input class="btn btn-success" type="submit" name="name" value="Calcular" />
+</form>
+
+

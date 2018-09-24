@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "ingresoNotas";
+}
+
+<h2 align="center">Registro de Notas</h2>
+<form action="~/Home/detalleNotas" method="post" align="center">
+    <table align="center">
+        <tr>
+            <td colspan="2" align="center">Registrar Notas del Alumno</td>
+        </tr>
+        <tr>
+            <td>
+                Código:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtCodigo" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nombre:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtNombre" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Curso:
+            </td>
+            <td>
+                <select name="selectCurso" class="form-control">
+                    <option value="Java">Java</option>
+                    <option value="MVC C#">MVC C#</option>
+                    <option value="PHP">PHP</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ex. Parcial:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtParcial" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>Ex. Final</td>
+            <td>
+                <input class="form-control" type="text" name="txtFinal" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Práctica:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtPractica" value="" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <div>
+        <input class="btn btn-success" type="submit" name="name" value="Procesar" />
+
+        <input class="btn btn-warning" type="button" onclick="window.location.reload()" value="Limpiar" />
+    </div>
+</form>
+

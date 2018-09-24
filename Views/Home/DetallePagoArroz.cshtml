@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Detalle Pago Arroz";
+}
+
+<h2 align="center">Detalle Pago</h2>
+<hr />
+<div align="center">
+    <p>Cantidad: @Model.cantidad</p>
+    <p>Tipo de Arroz: @Model.tipoArroz</p>
+    <p>Descuento: @Model.descuento</p>
+    <p>Total: @Model.total</p>
+    <p>Total a pagar: @Model.totalPagar </p>
+
+    <a  class="btn btn-primary" href="~/Home/casoArroz">Nuevo cálculo</a>
+</div>

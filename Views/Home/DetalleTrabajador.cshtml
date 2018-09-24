@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Detalle Trabajador";
+}
+
+<h2 align="center">DetalleTrabajador</h2>
+<hr />
+<div align="center">
+    <p>Cantidad de Hijos: @Model.nroHijos</p>
+    <p>Comisión del Mes: @Model.comision</p>
+    <p>Sueldo Bruto: @Model.sueldoBruto</p>
+    <p>Descuento: @Model.descuento</p>
+    <p>Sueldo Neto: @Model.sueldoNeto</p>
+
+    <a class="btn btn-primary" href="~/Home/sueldoTrabajador">Nuevo Cálculo</a>
+</div>
+
+

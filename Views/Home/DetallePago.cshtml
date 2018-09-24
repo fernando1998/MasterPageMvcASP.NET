@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "DetallePago";
+}
+
+<h2 align="center">DetallePago</h2>
+<br />
+<div align="center">
+    <p>Cantidad: @Model.cantidad</p>
+    <p>Precio: @Model.precio</p>
+    <p>Primer Descuento: @Model.primerDesc</p>
+    <p>Segundo Descuento: @Model.segundoDesc</p>
+    <p>Total Descuento: @Model.totalDesc</p>
+    <p>Total a Pagar: @Model.total</p>
+
+    <a class="btn btn-primary" href="~/Home/dobleDescuento">Nuevo Registro</a>
+</div>

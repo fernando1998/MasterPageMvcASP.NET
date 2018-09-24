@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Sueldo Trabajador";
+}
+
+<h2 align="center">Vendedor</h2>
+
+<form action="~/Home/calculoTrabajador" method="post" align="center">
+    <table align="center">
+        <tr align="center">
+            <td colspan="2"><b>Cálculo de Sueldo del Vendedor</b></td>
+        </tr>
+        <tr>
+            <td>
+                Número de Hijos:
+            </td>
+            <td>
+                <input class="form-control" type="text" name="txtNroHijos" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>Comisión del Mes:</td>
+            <td>
+                <input class="form-control" type="text" name="txtComision" value="" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <input class="btn btn-success" type="submit" name="name" value="Calcular" />
+</form>
